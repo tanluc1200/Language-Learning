@@ -1,0 +1,75 @@
+html {
+    font-size: 6.25%;
+    font-family: "Neue Montreal", sans-serif;
+}
+body {
+    font-size: 16rem;
+}
+.container {
+    max-width: 1170px;
+    /* width: calc(100% - 48px); */
+    margin-inline: auto;
+}
+/* btn- spanish */
+.btn {
+    padding-inline: 20px 20px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    min-width: 182px;
+}
+.changing h2 strong,
+.dialect h2 strong,
+.love h2 strong,
+.questions h2 strong {
+    color: #5ce4ca;
+}
+.changing h2,
+.dialect h2,
+.love h2,
+.questions h2 {
+    margin-inline: auto;
+    color: #003d31;
+    font-weight: 700;
+    font-size: 46rem;
+    line-height: 1.13;
+}
+.btn-spanish {
+    background: #fff;
+    min-width: 172px;
+}
+.btn-spanish svg {
+    width: 15px;
+    height: 15px;
+    margin-left: 30px;
+}
+.btn-start {
+    background: #003d31;
+    color: #fff;
+    margin-left: 20px;
+}
+.btn-about {
+    padding: 16px 38px;
+    background: white;
+    color: #003d31;
+    font-weight: 500;
+    font-size: 46rem;
+    line-height: 1.13;
+    display: inline-block;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+.line {
+    height: 1px;
+    background: #dad0af;
+}
