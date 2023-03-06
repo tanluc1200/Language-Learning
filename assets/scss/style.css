@@ -360,4 +360,245 @@ footer {
 }
 .socials .row {
   gap: 18px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: calc(100% - 48px);
+  }
+  .header-nav {
+    justify-content: space-between !important;
+    gap: 10px;
+    padding-block: 32px !important;
+  }
+  body > header > div > section > div > div:nth-child(4) {
+    gap: 12px;
+  }
+  .nav-button {
+    margin-left: 0 !important;
+  }
+  .header-hero a {
+    min-width: 182px;
+  }
+  .header-hero .btn-start {
+    margin-left: 0;
+  }
+  .menu-top-header {
+    display: none;
+  }
+  .decorate1,
+  .decorate2,
+  .decorate3,
+  .decorate4 {
+    display: none;
+  }
+  .hero-info {
+    width: 100% !important;
+    align-items: stretch !important;
+  }
+  .hero-info pre {
+    white-space: pre-wrap;
+  }
+  .hero-info .style-text {
+    width: 100%;
+  }
+  .hero-info h2 {
+    margin-bottom: 0;
+    width: 100%;
+  }
+  .hero-info > div:nth-child(2) {
+    flex-direction: column;
+    gap: 22px;
+  }
+  body > header > div > section > div > div:nth-child(4) {
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 22px;
+    align-items: stretch;
+  }
+  .recommend {
+    padding-top: 0;
+    flex-wrap: wrap-reverse;
+    gap: 30px;
+  }
+  .recommend-info {
+    margin-top: 30px;
+    text-align: center;
+  }
+  .recommend-info p {
+    text-align: justify;
+  }
+  .recommend img {
+    margin: auto;
+  }
+  .changing {
+    margin-top: 50px;
+  }
+  .changing h2 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .changing-block {
+    flex-basis: 100%;
+  }
+  .dialect {
+    text-align: center;
+    flex-wrap: wrap-reverse;
+    margin-block: 50px;
+    gap: 30px;
+  }
+  .dialect img {
+    margin: auto;
+  }
+  .dialect a {
+    margin-top: 20px;
+    margin-inline: auto;
+  }
+  .dialect p {
+    text-align: justify;
+  }
+  .statistical {
+    padding-block: 50px !important;
+  }
+  .statistical h2 {
+    font-size: 35rem;
+    text-align: center;
+  }
+  .statistical > div:nth-child(1) {
+    gap: 10px;
+    flex-direction: column;
+  }
+  .love {
+    padding-block: 50px !important;
+  }
+  .love .desc {
+    margin-bottom: 30px !important;
+  }
+  .love-block {
+    flex-basis: 100% !important;
+  }
+  .love-block p {
+    text-align: justify;
+  }
+  .about {
+    padding: 50px 0 !important;
+    text-align: center;
+  }
+  .about .container {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .about-action {
+    width: 100% !important;
+  }
+  .about-action a {
+    min-width: 100% !important;
+    text-align: center;
+  }
+  .about-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+  }
+  .about-info p {
+    margin-bottom: 20px;
+  }
+  .about-info a {
+    margin-left: 0;
+    min-width: 182px;
+  }
+  .about-info .row {
+    justify-content: center;
+    gap: 12px;
+  }
+  .footer {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .footer-menu {
+    gap: 10px;
+    margin-bottom: 0;
+  }
+  .site-language ul {
+    flex-wrap: wrap;
+  }
+  .questions {
+    padding-top: 50px;
+  }
+  .questions p {
+    margin-bottom: 50px;
+  }
+  .socials {
+    flex-wrap: wrap;
+    row-gap: 15px;
+  }
+}
+@media only screen and (max-width: 1217px) {
+  .decorate1,
+  .decorate2,
+  .decorate3,
+  .decorate4 {
+    display: none;
+  }
+  .hero-info .row {
+    justify-content: center;
+    row-gap: 20px;
+  }
+  .changing .changing-group.row {
+    justify-content: center;
+  }
+  .changing-block {
+    width: 45% !important;
+  }
+  .recommend {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: justify;
+  }
+  .recommend-info h2 {
+    text-align: center;
+  }
+  .dialect {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: justify;
+    margin-block: 50px;
+  }
+  .dialect-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .statistical .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+  }
+  .about .container {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 20px;
+  }
+  .about-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .about-info {
+    text-align: justify;
+  }
+  .about-info .row {
+    justify-content: center;
+  }
+  .menu-top-header {
+    margin-left: 0 !important;
+  }
+  .nav-button {
+    margin-left: 0 !important;
+  }
+  .header-nav.row {
+    justify-content: space-between;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -7,7 +7,7 @@ body {
 }
 .container {
     max-width: 1170px;
-    /* width: calc(100% - 48px); */
+    width: calc(100% - 48px);
     margin-inline: auto;
 }
 /* btn- spanish */
